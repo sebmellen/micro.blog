@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="black">
+  <div class="mt3 f6 mw6 mw7-ns center pa3 ph5-ns">
+    <a
+      href="{{ .Site.BaseURL }}"
+      class="fw6 link dim ba bw1 pa2 mb2 dib white rounded br1"
+      >← GO HOME</a
+    >
+  </div>
+  <div class="mh2">
+    <div class="bg-white br2 shadow-4 mw6 mw7-ns center pa3 ph5-ns">
+      <div class="tc">
+        <h1 class="tc f3">{{ .Title }}</h1>
+        <span class="f6">{{ partial "metadata.html" . }}</span> <br />
+      </div>
+
+      <br />
+      <div class="lh-copy">{{ .Content }}</div>
+    </div>
+  </div>
+</div>
+{{ end }}

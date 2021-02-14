@@ -1,0 +1,13 @@
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+<!-- prettier ignore -->
+{{ $dateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+<span class="b">PUB:</span>
+<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+<br />
+{{ with .Params.tags }} {{ range . }}
+<!-- prettier ignore -->
+{{ $href := print (absURL "tags/") (urlize .) }}
+<a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}"
+  ><span class="f7"></span>{{ . }}</a
+>
+{{ end }} {{ end }}

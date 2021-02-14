@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="tc black">
+  <h1 class="f2 white">{{ .Site.Title }}</h1>
+  <main id="main" class="index mh2">
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "posts") }}
+    {{ range $paginator.Pages }}
+    <div class="mw6 mw7-ns center bg-white pa3 ph5-ns br2 shadow-5 mv4">
+      <h2>
+        <a href="{{ .Permalink }}" class="black ttu f4 dark-blue"
+          >{{ .Title }}</a
+        >
+      </h2>
+      {{ if ne .Params.tags nil }}
+      <div>{{ partial "metadata.html" . }}</div>
+      {{ end }}
+      <div class="tl lh-copy">{{ .Content }}</div>
+    </div>
+    {{ end }} {{ if or $paginator.HasPrev $paginator.HasNext}}
+    <div class="paginator">
+      {{ if $paginator.HasPrev }}
+      <a class="link" href="{{ $paginator.Prev.URL }}">← prev</a>
+      {{ else }}
+      <a></a>
+      {{ end }} {{ if $paginator.HasNext }}
+      <a class="link" href="{{ $paginator.Next.URL }}">next →</a>
+      {{ else }}
+      <a></a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </main>
+</div>
+{{ end }}

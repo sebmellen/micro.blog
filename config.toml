@@ -1,0 +1,10 @@
+baseURL = "https://micro.blog.slm.space/"
+languageCode = "en-us"
+title = "Sebastian Mellen's Microblog"
+theme = "microBlog"
+
+[params]
+    author = "Sebastian Mellen"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
