@@ -1,5 +1,5 @@
 ---
-title: "Giving Is Receiving"
+title: "Parentless People"
 date: 2020-01-22T15:33:00Z
 draft: false
 tags: ["alliteration", "writing"]
