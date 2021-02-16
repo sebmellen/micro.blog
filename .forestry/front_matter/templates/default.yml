@@ -11,3 +11,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/posts/2021/Feb/researchers-are-fighting-for-scraps-in-vain.md
