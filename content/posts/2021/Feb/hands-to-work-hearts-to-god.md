@@ -10,6 +10,6 @@ And slog your way through pain and grind
 So you might one day heaven find
 
 But yea', you may soon find it true  
-That heaven really dwells _in you_  
-And thus building day and night  
-Is the way into the light
+That heaven _really_ dwells _in you_  
+And thus, by building day and night  
+You will find that sacred light
