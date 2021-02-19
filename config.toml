@@ -1,6 +1,6 @@
 baseURL = "https://denken.slm.space/"
 languageCode = "en-us"
-title = "Sebastian Mellen's Thinking/Denken"
+title = "Sebastian Mellen's Microblog"
 theme = "microBlog"
 
 [params]

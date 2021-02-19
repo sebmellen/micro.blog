@@ -1,14 +1,14 @@
 <div class="container">
-    <nav class="tc">
-        {{ range .Site.Menus.main }}
-        <a class="nav-link" href="{{ .URL }}">
-        {{ if .Pre }}
-        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-        {{ $icon }}
-        {{ end }}
-        {{ $text := print .Name | safeHTML }}
-        {{ $text }}
-        </a>
-        {{ end }}
-    </nav>
+  <h1 class="f2 white tc">
+    <a href="{{ .Site.BaseURL }}" class="white no-underline"
+      >{{ .Site.Title }}</a
+    >
+  </h1>
+  <nav class="tc">
+    <a class="white b" href="/tags">TAGS</a>
+    <span>&nbsp*&nbsp</span>
+    <a class="white b" href="{{ .URL }}">ABOUT</a>
+    <span>&nbsp*&nbsp</span>
+    <a class="white b" href="{{ .URL }}">MAIN BLOG</a>
+  </nav>
 </div>

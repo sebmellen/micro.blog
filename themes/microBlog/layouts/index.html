@@ -1,12 +1,15 @@
 {{ define "main" }}
 <div class="tc black">
-  <h1 class="f2 white">{{ .Site.Title }}</h1>
   <main id="main" class="index mh2">
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "posts") }}
     {{ range $paginator.Pages }}
-    <div class="mw6 mw7-ns center bg-white pa3 ph5-ns br2 shadow-5 mv4">
+    <div
+      class="mw6 mw7-ns center bg-white pt2 pb3 ph5-ns ph3 br2 shadow-2 mv4-ns mv3"
+    >
       <h2>
-        <a href="{{ .Permalink }}" class="black ttu f4 dark-blue"
+        <a
+          href="{{ .Permalink }}"
+          class="black ttu f4 dark-blue fw7 no-underline"
           >{{ .Title }}</a
         >
       </h2>
@@ -18,11 +21,19 @@
     {{ end }} {{ if or $paginator.HasPrev $paginator.HasNext}}
     <div class="paginator">
       {{ if $paginator.HasPrev }}
-      <a class="link" href="{{ $paginator.Prev.URL }}">← prev</a>
+      <a
+        class="fw6 link dim ba bw1 pa2 mb2 dib white rounded br1"
+        href="{{ $paginator.Prev.URL }}"
+        >← prev</a
+      >
       {{ else }}
       <a></a>
       {{ end }} {{ if $paginator.HasNext }}
-      <a class="link" href="{{ $paginator.Next.URL }}">next →</a>
+      <a
+        class="fw6 link dim ba bw1 pa2 mb2 dib white rounded br1"
+        href="{{ $paginator.Next.URL }}"
+        >next →</a
+      >
       {{ else }}
       <a></a>
       {{ end }}
