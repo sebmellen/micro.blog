@@ -1,6 +1,6 @@
 ---
 title: "When the Bees Arise"
-date: 2019-11-08T13:32z:00Z
+date: 2019-11-08T13:32:00Z
 draft: false
 tags: ["stoicism", "stoic", "observation"]
 ---

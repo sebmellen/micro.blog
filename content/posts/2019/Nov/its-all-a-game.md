@@ -1,6 +1,6 @@
 ---
 title: "It's All A Game!"
-date: 2019-11-05T08:54z:00Z
+date: 2019-11-07T19:19:00Z
 draft: false
 tags: ["question"]
 ---

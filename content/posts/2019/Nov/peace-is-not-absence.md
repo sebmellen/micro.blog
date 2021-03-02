@@ -1,6 +1,6 @@
 ---
 title: "Peace Is Not Absence"
-date: 2019-11-18T10:18z:00Z
+date: 2019-11-18T10:18:00Z
 draft: false
 tags: ["motivation", "revelation", "transcendent"]
 ---

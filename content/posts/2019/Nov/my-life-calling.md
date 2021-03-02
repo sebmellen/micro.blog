@@ -1,6 +1,6 @@
 ---
 title: "My Life Calling"
-date: 2019-11-05T08:54z:00Z
+date: 2019-11-05T08:34:00Z
 draft: false
 tags: ["motivation", "goal", "self-improvement"]
 ---
