@@ -1,6 +1,6 @@
 ---
 title: "Do Dead Men Speak?"
-date: 2021-02-01T21:13:00Z
+date: 2021-03-01T21:13:00Z
 draft: false
 tags: ["observation", "stoicism", "daoism"]
 ---

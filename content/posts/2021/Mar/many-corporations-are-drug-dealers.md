@@ -1,6 +1,6 @@
 ---
 title: "Many Corporations Are Drug Dealers"
-date: 2021-02-02T00:54:00Z
+date: 2021-03-02T00:54:00Z
 draft: false
 tags: ["observation"]
 ---

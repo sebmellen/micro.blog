@@ -1,6 +1,6 @@
 ---
 title: "Great Men Develop Their Character Inwardly"
-date: 2021-02-02T00:56:00Z
+date: 2021-03-02T00:56:00Z
 draft: false
 tags: ["observation", "self-improvement"]
 ---

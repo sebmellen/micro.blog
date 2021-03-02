@@ -1,6 +1,6 @@
 ---
 title: "Deterioration Is Creation"
-date: 2021-02-02T00:47:00Z
+date: 2021-03-02T00:47:00Z
 draft: false
 tags: ["observation", "stoic", "stoicism"]
 ---
