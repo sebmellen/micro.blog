@@ -39,13 +39,13 @@ Today they're grapes, tomorrow wine
 
 All things must come and go  
 This is the universe's flow  
-So don't be sad if loved ones die  
-Their souls and spirits fill the sky  
-
 Just look and listen, stop and see  
-This divine synchronicity  
+Observe this divine synchronicity  
+
 All around you, it abounds  
 From a baby's crib to burial grounds  
+So don't be sad if loved ones die  
+Their souls and spirits fill the sky  
 
 And through your life, as time ticks by  
 As moments come and as they fly  
