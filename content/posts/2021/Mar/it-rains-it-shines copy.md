@@ -20,7 +20,7 @@ Of heads with long-grown colored hairs
 
 How breathing brings a kind of joy  
 The kind in every happy boy  
-To freely, untaxed, breathe the air  
+To freely, untaxed, drink the air  
 And blow away your dark despair  
 
 You'll find the world loves you too  
