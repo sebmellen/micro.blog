@@ -8,19 +8,19 @@ tags: ["poem", "daoism"]
 What keeps you nonstop wandering  
 Is you think you've got to be a thing  
 
-Sit down, reflect a little while  
+Sit down and think a little while  
 Do you recognize your smile?  
 To love yourself, you've got to train  
 That's you right there, shining plain  
 
-And think in morning light how good  
+Think in morning light how good  
 It is to wander through the wood  
 How nice it is to feel the stares  
-Of girls with long-grown, colored hairs  
+Of girls with long-grown colored hairs  
 
 How breathing brings a kind of joy  
 The kind in every happy boy  
-So freely, untaxed, drink the air  
+To freely, untaxed, drink the air  
 And blow away your dark despair  
 
 You'll find the world loves you, too  
